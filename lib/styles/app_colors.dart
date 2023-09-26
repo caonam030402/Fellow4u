@@ -7,4 +7,6 @@ class AppColors {
   static const white = Color(0xFFFAF8FF);
   static const colorTextDarker = Color(0xFF333333);
   static const colorTextDark = Color(0xFF777777);
+  static const gray = Color(0xFF999999);
+  static const fieldColor = Color.fromARGB(255, 244, 241, 241);
 }
