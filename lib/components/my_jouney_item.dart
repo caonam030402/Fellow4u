@@ -23,7 +23,7 @@ class MyJouneyItem extends StatelessWidget {
         children: [
           Container(
             decoration: BoxDecoration(),
-            height: 250,
+            height: 300,
             child: GridView.custom(
               scrollDirection: Axis.vertical,
               physics: NeverScrollableScrollPhysics(),

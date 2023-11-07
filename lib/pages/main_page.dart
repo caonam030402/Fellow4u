@@ -60,16 +60,16 @@ class _MainPageState extends State<MainPage> {
         unselectedItemColor: AppColors.black,
         selectedItemColor: AppColors.primary,
         currentIndex: currentIndex,
-        selectedIconTheme: IconThemeData(color: AppColors.primary),
+        selectedIconTheme: const IconThemeData(color: AppColors.primary),
       ),
     );
   }
 
   final pages = <Widget>[
-    ExplorePage(),
-    MyTrips(),
-    ChatPage(),
-    NotificationsPage(),
-    ProfilePage(),
+    const ExplorePage(),
+    const MyTrips(),
+    const ChatPage(),
+    const NotificationsPage(),
+    const ProfilePage(),
   ];
 }

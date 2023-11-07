@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.light,
       ),
       routes: AppRoutes.pages,
-      initialRoute: AppRoutes.main,
+      initialRoute: AppRoutes.splash,
     );
   }
 }
